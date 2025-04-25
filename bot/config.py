@@ -11,7 +11,7 @@ class Telegram:
     BOT_TOKEN = getenv("BOT_TOKEN", "7105712052:AAGBSbUiLzffkGu5acMxHj7zgXHdeXH45EQ")
     PORT = int(getenv("PORT", 8080))
     SESSION_STRING = getenv("SESSION_STRING", "")
-    BASE_URL = getenv("BASE_URL", "https://vercel.com/bob-files-projects/surftg-org/C9mh3ngN46L7iZJ5i3yH4QzhNt6z").rstrip('/')
+    BASE_URL = getenv("BASE_URL", "https://bob-file-e042ea30e6ea.herokuapp.com/").rstrip('/')
     DATABASE_URL = getenv("DATABASE_URL", "mongodb+srv://Shivji:BoBfiles@cluster0.t1mka5v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     AUTH_CHANNEL = [channel.strip() for channel in getenv("AUTH_CHANNEL", " -1001844691460").split(",") if channel.strip()]
     THEME = getenv("THEME", "quartz").lower()
