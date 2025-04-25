@@ -15,8 +15,8 @@ class Telegram:
     DATABASE_URL = getenv("DATABASE_URL", "mongodb+srv://Shivji:BoBfiles@cluster0.t1mka5v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     AUTH_CHANNEL = [channel.strip() for channel in getenv("AUTH_CHANNEL", " -1001844691460").split(",") if channel.strip()]
     THEME = getenv("THEME", "quartz").lower()
-    USERNAME = getenv("USERNAME", "")
-    PASSWORD = getenv("PASSWORD", "")
+    USERNAME = getenv("USERNAME", "Shiv")
+    PASSWORD = getenv("PASSWORD", "BoB")
     ADMIN_USERNAME = getenv("ADMIN_USERNAME", "Asssaulter_shiv")
     ADMIN_PASSWORD = getenv("ADMIN_PASSWORD", "Mishraji99@")
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
