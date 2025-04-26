@@ -14,7 +14,7 @@ class Telegram:
     BASE_URL = getenv("BASE_URL", "https://bob-file-e042ea30e6ea.herokuapp.com/").rstrip('/')
     DATABASE_URL = getenv("DATABASE_URL", "mongodb+srv://Shivji:BoBfiles@cluster0.t1mka5v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     AUTH_CHANNEL = [channel.strip() for channel in getenv("AUTH_CHANNEL", " -1001844691460").split(",") if channel.strip()]
-    THEME = getenv("THEME", "quartz").lower()
+    THEME = getenv("THEME", "darkly").lower()
     USERNAME = getenv("USERNAME", "Shiv")
     PASSWORD = getenv("PASSWORD", "BoB")
     ADMIN_USERNAME = getenv("ADMIN_USERNAME", "Asssaulter_shiv")
